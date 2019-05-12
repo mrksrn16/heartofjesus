@@ -1,0 +1,132 @@
+ body[data-aos-duration='4000'] [data-aos], [data-aos][data-aos][data-aos-duration='4000']{
+    transition-duration: 4000ms;
+  }
+.sidebar-wrapper {
+    background: rgba(128, 0, 0, 0.3);
+}
+.sidebar{ background: rgba(128, 0, 0, 0.4);  }
+#custom-dropdown ul.dropdown-menu {
+    background: rgb(148, 83, 83);
+    right: 13px;
+    left: initial;
+}
+.navbar-default {
+    background-color: rgba(128, 0, 0, 0.8);
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a:not(.btn) {
+    color: #fff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:not(.btn):hover{
+    color: #ccc;
+}
+.home h1{
+	text-transform: uppercase;
+}
+.home h1 span{
+	display: block;
+}
+.home img{
+	width: 300px;
+}
+.login-form {
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 1px 1px #ddd;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.login-form h3 {
+    background: maroon;
+    color: #fff;
+    padding: 10px;
+}
+label.error {
+    color: red;
+}
+.msg{
+      background: rgba(128, 0, 0, 0.71);
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.col-md-12.home {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(63, 63, 68, 0.1);
+    background: #fff;
+    text-align: center;
+}
+.table > thead > tr > th{
+    color: #444;
+}
+.card .category, .card label {
+    color: #444;
+    font-weight: bold;
+}
+.form-control{
+    border: 1px solid #999;
+}
+
+span.fc-title.event-done {
+    background: #4CAF50;
+}
+.box{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.box.pink{
+    background: #E91E63;
+}
+.box.lightblue{
+    background: #00BCD4;
+}
+.box.gray{
+    background: #607D8B;
+}
+.box.orange{
+    background: #FF9800;
+}
+.box.green{
+    background: #4CAF50;
+}
+.box.teal{
+    background: #009688;
+}
+.box.blue{
+    background: #3a87ad;
+}
+.marLeft{
+    margin-left: 10px;
+}
+@media only screen and ( max-width: 600px ){
+	.login-form{
+		width: 90%;
+	}
+    .home img {
+        width: 200px;
+    }
+    .main-panel > .content{
+        padding: 15px;
+    }
+    .home h1 {
+        font-size: 26px;
+    }
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+        margin: 0;
+    }
+    .container-fluid {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+@media only screen and ( max-width: 320px ){
+    .home img {
+        width: 200px;
+    }
+    .navbar .navbar-brand{
+        font-size: 16px;
+    }
+}
